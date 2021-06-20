@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(pink,lavender,yellow);
+}
+#familyimg{
+    width: 290;
+}
+button{
+    font: size 25px;
+    background-color: bisque;
+    border-radius: 20%;
+    color: black;
+}
+h1{
+    font-size: 25px;
+    color:purple;
+    font-weight: bold;
+    text-decoration: underline;
+}

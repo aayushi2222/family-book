@@ -1,0 +1,36 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+       <title>Family Book</title>
+    </head>
+    <body>
+        <h1> Family Book </h1>
+        <hr> <hr>
+        <img id="familyimg" src="front.png">
+        <h3 id="one">1. Our Family Book</h3>
+        <button type="button" onclick="family()">Next</button>
+        <hr>
+        <script>
+            var names=[
+            "1 My Father (Ashwani Kumar Sharma)",
+            "2 Mother (Aarti Sharma)",
+            "3 My brother (Ashmayu Sharma)",
+            "4 Me (Aayushi Sharma)",
+            ];
+            var images=[
+        "dad.png",
+        "mom.jpg",
+        "brother.jpg",
+        "me.jpg",
+        ];
+        var i=0;
+        function family(){
+            document.getElementById("one").innerHTML=names[i];
+            document.getElementById("familyimg").src=images[i];
+            i++;
+            if(i==4){
+                i=0;
+            }}
+        </script>
+    </body>
+</html>
